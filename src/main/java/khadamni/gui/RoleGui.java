@@ -1,0 +1,36 @@
+package gui;
+
+
+import java.sql.*;
+
+public class RoleGui {
+
+   /* public RoleGui() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+    public static void insertRoles() {
+        try (java.sql.Connection conn = utiles.Connection.getConnection();
+             PreparedStatement statement = conn.prepareStatement(
+                     "INSERT INTO role (roleName) VALUES (?)"
+             )) {
+            statement.setString(1, "Administrator");
+            statement.executeUpdate();
+
+            statement.setString(1, "Client");
+            statement.executeUpdate();
+
+            statement.setString(1, "Freelancer");
+            statement.executeUpdate();
+
+            System.out.println("Roles inserted.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }*/
+
+
+}
